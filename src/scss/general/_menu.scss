@@ -1,0 +1,12 @@
+.menu-item {
+  text-decoration: none;
+  color: #006c51;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  &.active {
+    text-decoration: underline;
+  }
+}
